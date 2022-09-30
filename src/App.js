@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import FormBootstrap from './from-bootstrap';
 function App() {
   return (
-    <div className="App">
-      <h1>Web Development Quiz</h1>
-    </div>
+  
+      <FormBootstrap/>
   );
 }
 
